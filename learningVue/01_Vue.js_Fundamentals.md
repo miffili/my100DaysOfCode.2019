@@ -7,13 +7,13 @@ www.vueschool.io | 10 lessons | 26 minutes
 - including Vue.js possible via CDN
 - initialize new vue instance via `var shoppingList = new Vue({});`
 - object takes properties for this instance
-	```javascript
-	var shoppingList = new Vue({
-	  el: '#shopping-list',
-	  data: {
+  ```javascript
+  var shoppingList = new Vue({
+    el: '#shopping-list',
+    data: {
       header: 'Vue.js is awesome'
-	  },
-	});
+    },
+  });
 	```
 - templating syntax using `{{ ... }}`
 	- **!** takes only _ONE expression_
@@ -31,12 +31,12 @@ www.vueschool.io | 10 lessons | 26 minutes
 	```
 
 - binding data to input-field via `v-model` directive (2-way) ➡ instant reactivity
-	```html
-	<div id="shopping-list">
+  ```html
+  <div id="shopping-list">
     <h1>{{ header ? header : 'Hello Vue.js!' }}</h1>
     <input type="text" v-model="header">
-	</div>
-	```
+  </div>
+  ```
 	
 ### Loops
 
