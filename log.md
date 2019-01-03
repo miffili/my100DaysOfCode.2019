@@ -7,7 +7,7 @@
   * Vue.js Methods and Computed Properties
   * Attribute Bindings and dynamic classes
   
-![Zootopia Sloth](https://media1.giphy.com/media/l2JI8IxBaZhxZ7GcU/giphy.gif?cid=3640f6095c2e99336d35324a410164c1)
+![Sloth](https://media.giphy.com/media/l2JI9JdUDjxVbd20g/giphy.gif)
 
 ### 001 | Jan02
 
