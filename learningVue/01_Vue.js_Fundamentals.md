@@ -97,8 +97,8 @@ www.vueschool.io | 10 lessons | 26 minutes
 			placeholder="Add new item"
 			v-model="newItem"
 			v-on:keyup.enter="items.push(newItem)">
-			<button v-on:click="items.push(newItem)">Save</button>
-		</div>
+		<button v-on:click="items.push(newItem)">Save</button>
+	</div>
 	```
 	
 ### methods
